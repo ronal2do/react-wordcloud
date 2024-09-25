@@ -1,5 +1,5 @@
 {
-  "name": "react-wordcloud",
+  "name": "react-wordcloud-reborn",
   "version": "1.2.7",
   "description": "Simple React + D3 wordcloud component with powerful features.",
   "license": "MIT",
@@ -45,8 +45,10 @@
     "tippy.js": "^6.2.6"
   },
   "devDependencies": {
+    "@eslint/js": "^9.11.1",
     "@types/d3-array": "^2.0.0",
     "@types/d3-cloud": "^1.2.3",
+    "@types/d3-dispatch": "^3.0.6",
     "@types/d3-scale": "^2.2.0",
     "@types/d3-scale-chromatic": "^1.5.0",
     "@types/d3-selection": "^1.4.1",
@@ -54,8 +56,9 @@
     "@types/lodash.debounce": "^4.0.6",
     "@types/seedrandom": "^2.4.28",
     "docz": "^2.3.1",
-    "eslint-config-xo-react": "^0.23.0",
-    "eslint-config-xo-typescript": "^0.31.0",
+    "eslint": "^9.11.1",
+    "eslint-plugin-react": "^7.36.1",
+    "globals": "^15.9.0",
     "husky": "^4.2.5",
     "microbundle": "^0.12.3",
     "react": "^16.13.1",
@@ -76,22 +79,5 @@
     "jsxBracketSameLine": true,
     "trailingComma": "all",
     "useTabs": false
-  },
-  "xo": {
-    "prettier": true,
-    "env": [
-      "browser"
-    ],
-    "extends": [
-      "xo-react"
-    ],
-    "rules": {
-      "@typescript-eslint/prefer-readonly-parameter-types": "off",
-      "import/no-anonymous-default-export": "off",
-      "import/no-unassigned-import": "off",
-      "react/function-component-definition": "off",
-      "react/prop-types": "off",
-      "unicorn/no-fn-reference-in-iterator": "off"
-    }
   }
 }
